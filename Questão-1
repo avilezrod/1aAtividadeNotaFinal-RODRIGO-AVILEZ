@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil Pessoal</title>
+    <style>
+        body {
+            background: #f3f3f3;
+            font-family: Arial, sans-serif;
+        }
+        .perfil {
+            background: #fff;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 340px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .foto-matricula {
+            width: 90px;
+            height: 90px;
+            background: #d3d3d3;
+            border-radius: 50%;
+            margin: -60px auto 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: #444;
+        }
+        .skills span {
+            background: #005BAC;
+            color: #fff;
+            border-radius: 5px;
+            padding: 7px 14px;
+            margin: 6px;
+            display: inline-block;
+            font-size: 13px;
+        }
+        .redes a {
+            text-decoration: none;
+            color: #4caf50;
+            margin: 0 8px;
+            font-size: 14px;
+        }
+        .redes a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="perfil">
+        <div class="foto-matricula">R</div>
+        <h1>Rodrigo Avilez</h1>
+        <h2>Curso: Sistemas de Informação</h2>
+        <p>Matrícula: 202502418621</p>
+        <p>Objetivo Profissional: Atuar como analista de dados e BI.</p>
+        <div class="skills">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Pandas</span>
+        </div>
+        <div class="redes">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
