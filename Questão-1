@@ -5,45 +5,43 @@
     <title>Perfil Pessoal</title>
     <style>
         body {
-            background: #f3f3f3;
+            background: #eee;
             font-family: Arial, sans-serif;
         }
         .perfil {
             background: #fff;
-            margin: 40px auto;
-            padding: 30px;
-            border-radius: 10px;
-            width: 340px;
+            margin: 30px auto;
+            padding: 20px;
+            width: 320px;
             text-align: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
         }
         .foto-matricula {
-            width: 90px;
-            height: 90px;
-            background: #d3d3d3;
+            width: 80px;
+            height: 80px;
+            background: #ccc;
             border-radius: 50%;
-            margin: -60px auto 10px auto;
+            margin: 0 auto 15px auto;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
             font-size: 18px;
-            color: #444;
         }
         .skills span {
-            background: #005BAC;
+            background: #06c;
             color: #fff;
-            border-radius: 5px;
-            padding: 7px 14px;
-            margin: 6px;
+            border-radius: 3px;
+            padding: 4px 10px;
+            margin: 3px;
+            font-size: 12px;
             display: inline-block;
-            font-size: 13px;
         }
         .redes a {
+            color: #333;
             text-decoration: none;
-            color: #4caf50;
-            margin: 0 8px;
-            font-size: 14px;
+            margin: 0 5px;
+            font-size: 13px;
         }
         .redes a:hover {
             text-decoration: underline;
@@ -70,3 +68,4 @@
     </div>
 </body>
 </html>
+
